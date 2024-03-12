@@ -260,6 +260,10 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.qti \
     android.hardware.health-service.qti_recovery
 
+# Fastcharge
+PRODUCT_PACKAGES += \
+    vendor.lineage.fastcharge@1.0-service.xiaomi_sm6375
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \

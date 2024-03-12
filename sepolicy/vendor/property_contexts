@@ -49,3 +49,6 @@ vendor.sys.thermal.                     u:object_r:vendor_thermal_normal_prop:s0
 # Wi-Fi
 ro.vendor.ril.oem.btmac                 u:object_r:vendor_wifi_prop:s0
 ro.vendor.ril.oem.wifimac               u:object_r:vendor_wifi_prop:s0
+
+# Fastcharge HAL
+persist.vendor.sec.fastchg_enabled              u:object_r:vendor_fastcharge_prop:s0
